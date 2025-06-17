@@ -4,6 +4,7 @@ body{
 }
 div{
   margin: 0;
+  padding: 0;
 }
 a{
   text-decoration: none;
@@ -277,8 +278,8 @@ a i{
     justify-content: center;
 
   }
-  .about img{
-    width: 400px;
+  .about div img{
+    width: 350px;
     justify-self: center;
     margin-bottom: 2rem;
   }
@@ -297,6 +298,9 @@ a i{
   }
   .what-we-do{
     padding: 2rem .5rem;
+  }
+  .what-we-do h1{
+    justify-self: center;
   }
   .what-we-do-box{
     display: block;
