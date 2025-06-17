@@ -1,5 +1,5 @@
 import '../App.css'
-import hero from "../assets/hero.jpeg"
+
 import general from "../assets/Road 1.jpeg"
 import logo1 from "../assets/big.jpeg"
 import logo2 from "../assets/er.jpeg"
@@ -196,9 +196,9 @@ function Home() {
                 </h1>
             
                 <p className='fs-2'>Keep up with our latest news and events.</p>
-                <form action="" className='d-flex align-items-center gap-2'>
-                    <input type="email"  className='form-control py-2 px-5 fw-medium fs-3'/>
-                    <button type='submit' className='btn btn-success fw-bold px-5 py-3'>SUBSCRIBE</button>
+                <form action="" className='newsletter-form'>
+                    <input type="email"  className='form-control'/>
+                    <button type='submit' className=''>SUBSCRIBE</button>
                 </form>
             </div>
         </div>
@@ -223,39 +223,39 @@ function Home() {
 
 
         {/* footer section  */}
-        <div className='bg-dark  text-white ' style={{padding: '6rem 5rem'}}>
-            <div className='d-flex justify-content-center mb-5'>
-                <a href="/"><img style={{width:"400px"}} src="../../public/logo2.png" alt="" /></a>
+        <div className='bg-dark  text-white footer-section'>
+            <div className='footer-section-logo'>
+                <a href="/"><img src="../../public/logo2.png" alt="" /></a>
             
             </div>
-            <div className='d-flex justify-content-between'>
-            <div className='col-4'>
-                <h3>NAVIGATE</h3>
-            <ul style={{listStyle: 'none', display: "block",fontWeight: '700', lineHeight: '40px'}} className='fs-6'>
-                    <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Home</li></a>
-                    <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>About us</li></a>
-                    <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Civil engineering</li></a>
-                    <a style={{textDecoration: 'none', color: '#a9a9a9',  }} href=""><li>Contact</li></a>
-                </ul>
-            </div>
-            <div className='col-4'>
-                <h3>COMPANY</h3>
-            <ul style={{listStyle: 'none', display: "block",fontWeight: '700', lineHeight: '40px'}} className='fs-6'>
-                    <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Blog</li></a>
-                    <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Projects</li></a>
-                    <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Machinery</li></a>
-                    <a style={{textDecoration: 'none', color: '#a9a9a9',  }} href=""><li>Staffs</li></a>
-                </ul>
-            </div>
-            <div className='col-4'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptate repellendus vitae vel ad et tempore, esse hic consectetur incidunt voluptas perspiciatis iure accusamus dicta ex cumque? Explicabo, accusantium placeat!</p>
-                <a href="#" target="_blank"><i className="bi-linkedin me-5 fs-1"></i></a>
-                <a href="#" target="_blank"><i className="bi-instagram fs-1"></i></a>
-            </div>
+            <div className='footer-nav'>
+                <div className=''>
+                    <h3>NAVIGATE</h3>
+                    <ul style={{listStyle: 'none', display: "block",fontWeight: '700', lineHeight: '40px'}} className='fs-6'>
+                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Home</li></a>
+                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>About us</li></a>
+                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Civil engineering</li></a>
+                        <a style={{textDecoration: 'none', color: '#a9a9a9',  }} href=""><li>Contact</li></a>
+                    </ul>
+                </div>
+                <div className=''>
+                    <h3>COMPANY</h3>
+                <ul style={{listStyle: 'none', display: "block",fontWeight: '700', lineHeight: '40px'}} className='fs-6'>
+                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Blog</li></a>
+                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Projects</li></a>
+                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Machinery</li></a>
+                        <a style={{textDecoration: 'none', color: '#a9a9a9',  }} href=""><li>Staffs</li></a>
+                    </ul>
+                </div>
+                <div className='' style={{width: '400px'}}>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptate repellendus vitae vel ad et tempore, esse hic consectetur incidunt voluptas perspiciatis iure accusamus dicta ex cumque? Explicabo, accusantium placeat!</p>
+                    <a href="#" target="_blank"><i className="bi-linkedin me-5 fs-1"></i></a>
+                    <a href="#" target="_blank"><i className="bi-instagram fs-1"></i></a>
+                </div>
             </div>
         </div>
         
-        <div className='bg-primary py-2 text-center text-white'>
+        <div className='footer-footer'>
             <p>&copy;All Rights Reserved. date Tophem Constructions</p>
         </div>
     </>

@@ -183,7 +183,51 @@ a i{
   border-bottom: 5px solid orange;
   width: 300px;
 }
-
+.newsletter-form{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.newsletter-form input{
+  width: 100%;
+  padding: .3rem 2rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+.newsletter-form button{
+  background-color: green;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  padding: .8rem 2rem;
+}
+.newsletter-form button:hover{
+  background-color: white;
+  color: green;
+}
+.footer-section{
+  padding: 6rem 5rem;
+}
+.footer-section-logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.footer-section-logo img{
+  width: 400px;
+}
+.footer-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-footer{
+  padding: .5rem 0;
+  background-color: rgb(0, 128, 255)  ;
+  color: white;
+  text-align: center;
+}
 
 @media(max-width: 450px){
   .pre-nav{
@@ -267,5 +311,26 @@ a i{
   .testimonial{
     padding: 5rem 1rem;
     height: auto;
+  }
+  .newsletter-form input{
+    width: 300px;
+    justify-self: center;
+    margin-bottom: 1rem;
+  }
+  .newsletter-form{
+    display: block;
+  }
+  .newsletter-form button{
+    padding: .8rem 1rem;
+    justify-self: center;
+  }
+  .footer-section-logo img{
+    width: 200px;
+  }
+  .footer-nav{
+    display: block;
+  }
+  .footer-section{
+    padding: 3rem .8rem;
   }
 }
