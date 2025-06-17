@@ -1,0 +1,271 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+div{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+
+}
+a i{
+  color: white;
+}
+.pre-nav{
+  display: flex;
+}
+.nav-section{
+  display: flex;
+  padding: 0.5rem 3rem;
+}
+.logo img{
+  width: 150px;
+}
+ .navigate ul{
+  list-style: none;
+  display: inline-flex;
+  gap: 25px;
+  font-weight: 700;
+ }
+.navigate a{
+  color: rgb(52, 52, 52);
+  text-decoration: none;
+
+}
+.navigate a:hover{
+  color: orange;
+}
+.mobile-menu{
+  display: none;
+}
+/* hero section  */
+.hero{
+  display: flex;
+  justify-content: center; 
+  align-items: center ;
+  color: white ;
+  height: 80vh; 
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)), url('./assets/hero.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero div{
+  width: 900px;
+}
+.hero h1{
+  font-size: 4rem;
+  font-weight: 800;
+}
+.hero h2{
+  font-size: 2rem;
+}
+.stats{
+  background-color: black;
+  padding: 1.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.stats h1{
+  color: orange;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-right: .5rem;
+}
+.box{
+  display: flex;
+  align-items: center;
+}
+.about{
+  padding: 5rem 3rem;
+  display: flex;
+  align-items: center;
+}
+.about img{
+  margin-right: 2rem;
+
+}
+.testimonial{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 15rem;
+}
+.testimonial h1{
+  border-bottom: 5px solid orange;
+  width: 300px;
+  justify-self: center;
+}
+.testimonial p{
+  font-size: 1.3rem;
+}
+.brands{
+  height: 90vh;
+  text-align: center;
+  padding: 10rem;
+}
+.brands h2{
+  border-bottom: 5px solid orange;
+  width: 500px;
+  justify-self: center;
+  margin-bottom: 3rem;
+}
+.short-info{
+  display: flex;
+  grid: row;
+  background: #a9a9a9;
+  padding: 0 3rem;
+  color: white;
+}
+.box-info{
+  border: 1px solid white;
+  padding: 3rem 2rem;
+}
+
+.box-info div{
+  justify-self: center;
+}
+.what-we-do{
+  padding: 2rem .5rem;
+}
+.what-we-do h1{
+  border-bottom: 5px solid orange;
+  width: 300px;
+  justify-self: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.what-we-do{
+  padding: 4rem 10rem;
+}
+.what-we-do-box{
+  display: flex;
+  grid: row;
+}
+.what-we-do-box img{
+  width: 300px;
+}
+.what-we-do-box h2{
+  font-weight: 200;
+}
+.promotion{
+  padding: 3rem 10rem;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)), url('./assets/hero.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.promotion h1{
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+.newsletter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 10rem 5rem;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)), url('./assets/hero.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.newsletter h1{
+  justify-self: center;
+  border-bottom: 5px solid orange;
+  width: 300px;
+}
+
+
+@media(max-width: 450px){
+  .pre-nav{
+    display: none;
+  }
+  .navigate{
+    display: none;
+  }
+  .logo img{
+    width: 60px;
+  }
+  .nav-section{
+    padding: 0.2rem 0.5rem;
+  }
+  .nav-section h3{
+    display: none;
+  }
+  .mobile-menu{
+    display: block;
+    font-weight: 700;
+    /* font-size: ; */
+  }
+  .hero{
+    height: 40vh;
+  }
+  .hero h1{
+    font-size: 2rem;
+  }
+  .hero h2{
+    font-size: 1rem;
+  }
+  .stats {
+    padding: .5rem;
+  }
+  .stats h1{
+    font-size: 2rem;
+  }
+  .stats p{
+    font-size: .8rem;
+  }
+  .hero div{
+    width: 300px;
+  }
+  .about{
+    display: block;
+    padding: 4rem .5rem;
+    justify-content: center;
+
+  }
+  .about img{
+    width: 400px;
+    justify-self: center;
+    margin-bottom: 2rem;
+  }
+  .brands{
+    height: auto;
+    padding: 2rem .5rem;
+  }
+  .brands h2{
+    font-size: 1rem;
+    font-weight: 700;
+    width: 300px;
+  }
+  .short-info{
+    display: block;
+    
+  }
+  .what-we-do{
+    padding: 2rem .5rem;
+  }
+  .what-we-do-box{
+    display: block;
+  }
+  .what-we-do-box img{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .promotion{
+    padding: 1rem;
+  }
+  .testimonial{
+    padding: 5rem 1rem;
+    height: auto;
+  }
+}
