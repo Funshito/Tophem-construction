@@ -281,8 +281,12 @@ a i{
     justify-content: center;
 
   }
+  .about .img{
+    width: 350px;
+    justify-self: center;
+  }
   .about div img{
-    width: 400px;
+    width: 100%;
     justify-self: center;
     margin-bottom: 2rem;
   }

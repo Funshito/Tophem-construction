@@ -81,7 +81,7 @@ function Home() {
 
         {/* About section  */}
         <div className='about'>
-            <div ><img src={general} alt="" /></div>
+            <div className='img'><img src={general} alt="" /></div>
             <div>
                 <h1>MESSAGE FROM US</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, voluptatum fugit dolorum aspernatur ducimus omnis illum itaque aperiam deleniti dolorem. Voluptas perferendis a deserunt id possimus. Consectetur voluptatum consequuntur obcaecati?
