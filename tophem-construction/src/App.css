@@ -242,14 +242,17 @@ a i{
   }
   .nav-section{
     padding: 0.2rem 0.5rem;
+    height: 10vh;
   }
   .nav-section h3{
     display: none;
   }
   .mobile-menu{
     display: block;
-    font-weight: 700;
-    /* font-size: ; */
+  }
+  .mobile-menu i{
+    font-weight: 800;
+    font-size: 2rem;
   }
   .hero{
     height: 40vh;
