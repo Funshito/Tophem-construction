@@ -13,44 +13,10 @@ import logo6 from "../assets/sfg.png"
 function Home() {
   return (
     <> 
-        {/* pre nav section  */}
-        <div className="px-5 justify-content-between bg-primary text-white fs-6 pre-nav sm:hidden">
-            <div className="col-4">
-                Welcome to Tophem Construction
-            </div>
-            <div className="">
-                <div className="flex">
-                    <i className="bi-envelope"> construction@tophem.com</i>
-                </div>
-            </div>
-            <div className=" ">
-                <a href="#" target="_blank"><i className="bi-linkedin me-2"></i></a>
-                <a href="#" target="_blank"><i className="bi-instagram"></i></a>
-            </div>
-        </div>
+        
 
 
-        {/* navbar section  */}
-        <div className='justify-content-between align-items-center nav-section' style={{backgroundColor: 'whitesmoke'}}>
-            <div className='logo'>
-                <a href="/"><img src="../../public/logo2.png" alt="" /></a>
-            </div>
-
-            <div className='navigate'>
-                <ul className='fs-5'>
-                    <a href=""><li>Home</li></a>
-                    <a href=""><li>About us</li></a>
-                    <a href=""><li>Civil engineering</li></a>
-                    <a href=""><li>Contact</li></a>
-                </ul>
-            </div>
-            <div>
-                <h3>+2348033784778</h3>
-            </div>
-            <div className='mobile-menu'>
-                <i className="bi bi-list"></i>
-            </div>
-        </div>
+        
 
 
         {/* hero section  */}
@@ -222,42 +188,7 @@ function Home() {
 
 
 
-        {/* footer section  */}
-        <div className='bg-dark  text-white footer-section'>
-            <div className='footer-section-logo'>
-                <a href="/"><img src="../../public/logo2.png" alt="" /></a>
-            
-            </div>
-            <div className='footer-nav'>
-                <div className=''>
-                    <h3>NAVIGATE</h3>
-                    <ul style={{listStyle: 'none', display: "block",fontWeight: '700', lineHeight: '40px'}} className='fs-6'>
-                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Home</li></a>
-                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>About us</li></a>
-                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Civil engineering</li></a>
-                        <a style={{textDecoration: 'none', color: '#a9a9a9',  }} href=""><li>Contact</li></a>
-                    </ul>
-                </div>
-                <div className=''>
-                    <h3>COMPANY</h3>
-                <ul style={{listStyle: 'none', display: "block",fontWeight: '700', lineHeight: '40px'}} className='fs-6'>
-                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Blog</li></a>
-                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Projects</li></a>
-                        <a style={{textDecoration: 'none', color: '#a9a9a9', }} href=""><li>Machinery</li></a>
-                        <a style={{textDecoration: 'none', color: '#a9a9a9',  }} href=""><li>Staffs</li></a>
-                    </ul>
-                </div>
-                <div className='' style={{width: '400px'}}>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptate repellendus vitae vel ad et tempore, esse hic consectetur incidunt voluptas perspiciatis iure accusamus dicta ex cumque? Explicabo, accusantium placeat!</p>
-                    <a href="#" target="_blank"><i className="bi-linkedin me-5 fs-1"></i></a>
-                    <a href="#" target="_blank"><i className="bi-instagram fs-1"></i></a>
-                </div>
-            </div>
-        </div>
         
-        <div className='footer-footer'>
-            <p>&copy;All Rights Reserved. date Tophem Constructions</p>
-        </div>
     </>
   )
 }
