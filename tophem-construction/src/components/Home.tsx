@@ -20,6 +20,7 @@ function Home() {
     function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
         alert('subscribed')
+        setEmail('');
       }
   return (
     <> 
