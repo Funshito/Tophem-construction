@@ -6,7 +6,7 @@ function Footer() {
     {/* footer section  */}
     <div className='bg-dark  text-white footer-section'>
             <div className='footer-section-logo'>
-                <a href="/"><img src="../../public/logo2.png" alt="" /></a>
+                <a href="/"><img src="https://iili.io/FYenpwP.png" alt="" /></a>
             
             </div>
             <div className='footer-nav'>

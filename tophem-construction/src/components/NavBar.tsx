@@ -34,7 +34,7 @@ function NavBar() {
         {/* navbar section  */}
         <div className='justify-content-between align-items-center nav-section' style={{backgroundColor: 'whitesmoke'}}>
             <div className='logo'>
-                <a href="/"><img src="../../public/logo2.png" alt="" /></a>
+                <a href="/"><img src="https://iili.io/FYenpwP.png" alt="" /></a>
             </div>
 
             <div className='navigate'>

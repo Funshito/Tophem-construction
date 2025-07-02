@@ -8,17 +8,22 @@ import logo4 from "../assets/firs.png"
 import logo5 from "../assets/jk.png"
 import logo6 from "../assets/sfg.png"
 
-
+import { useState } from "react";
 
 function Home() {
+
+    const [email, setEmail] =useState()
+
+    function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+        setEmail(e.target.value);
+      }
+    function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+        e.preventDefault();
+        alert('subscribed')
+      }
   return (
     <> 
-        
-
-
-        
-
-
+            
         {/* hero section  */}
         <div className='hero'>
             <div >
@@ -162,8 +167,8 @@ function Home() {
                 </h1>
             
                 <p className='fs-2'>Keep up with our latest news and events.</p>
-                <form action="" className='newsletter-form'>
-                    <input type="email"  className='form-control'/>
+                <form action="" className='newsletter-form' onSubmit={handleSubmit}>
+                    <input type="email" value={email}  className='form-control' onChange={handleChange}/>
                     <button type='submit' className=''>SUBSCRIBE</button>
                 </form>
             </div>
